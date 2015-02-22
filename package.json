@@ -4,9 +4,11 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "3.x",
+    "api-designer": "git://github.com/mulesoft/api-designer",
+    "body-parser": "^1.12.0",
+    "debug": "^2.1.1",
+    "express": "4.x",
     "mkdirp": "^0.5.0",
-    "raml-api-designer": "git://github.com/arthurtsang/api-designer.git#master",
     "rimraf": "^2.2.8",
     "sugar": "latest"
   }
